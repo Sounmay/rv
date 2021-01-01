@@ -6,6 +6,10 @@ import NavigationBar from './NavigationBar';
 import "./Schedule.css"
 
 const Schedule = () => {
+    let month = new Date().getMonth();
+    let date = new Date().getDate();
+    let year = new Date().getFullYear();
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     return (
         <div>
             <NavigationBar />
@@ -18,9 +22,10 @@ const Schedule = () => {
             </div>
             <br/>
 
-            <div class="event">
-                <span>January 3rd, 2020</span>
-                <span>Completed</span>
+            <div className="resultSection">
+                <div className="eventDate">
+                    {months[month]} {date}, {year} 
+                </div>
             </div>
 
             <div class="events">
@@ -36,9 +41,10 @@ const Schedule = () => {
             </div>
             <br/>
 
-            <div class="event">
-                <span>January 3rd, 2020</span>
-                <span>Completed</span>
+            <div className="resultSection">
+                <div className="eventDate">
+                    {months[month]} {date}, {year} 
+                </div>
             </div>
 
             <div class="events">

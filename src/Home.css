@@ -90,13 +90,17 @@ table.center {
   }
   
   .footer {
-    left: 0;
+    align-items: flex-end;
     bottom: 0;
     width: 100%;
     height: 15.6%;
     background-color: #404040;
     color: white;
     text-align: right;
+  }
+
+  div.footertext{
+    justify-content: right;
   }
 
   div.teamheader{

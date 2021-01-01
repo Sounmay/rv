@@ -93,16 +93,7 @@ const Home = () => {
             <br/>
 
             <div className="footer">
-                <table>
-                    <tr>
-                        <th><h3>Coordinators:</h3></th>
-                        <th><h3>Contacts:</h3></th>
-                    </tr>
-                    <tr>
-                        <th><h4>Name 1</h4></th>
-                        <th><h3>403920</h3></th>
-                    </tr>
-                </table>
+                <div className="footertext">Coordinators:<br/>Name1<br/>Name2<br/></div>
             </div>
 
         </section>
