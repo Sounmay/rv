@@ -51,6 +51,7 @@ table.center {
   .white-container {
     display: flex;
     justify-content: space-between;
+    margin: 10px;
   }
   
   .white-container div {
@@ -96,6 +97,40 @@ table.center {
     background-color: #404040;
     color: white;
     text-align: right;
-    
+  }
+
+  div.teamheader{
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 40%;
   }
   
+  #square {
+    width: 60px;
+    height: 60px;
+    background: #C4C4C4;
+  }
+
+  #redrectangle {
+    width: 278px;
+    height: 210px;
+    background: #FF0000;
+  }
+
+  #bluerectangle {
+    width: 278px;
+    height: 210px;
+    background: #0000FF;
+  }
+
+  #greenrectangle {
+    width: 278px;
+    height: 210px;
+    background: #00FF00;
+  }
+
+  #whiterectangle {
+    width: 278px;
+    height: 210px;
+    background: #F8F8F8;
+  }

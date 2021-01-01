@@ -99,16 +99,22 @@ div.card{
 
 }
 
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px;
+.selectionTabs>button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  border: #00000000 solid 1px;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.selectionTabs>button:active{
+  border: #000000 solid 1px;
 }
 
 div.event{

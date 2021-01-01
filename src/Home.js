@@ -38,6 +38,7 @@ const Home = () => {
                 <span><b>Upcoming Events</b></span>
                 <span><b>Calendar</b></span>
             </div>
+            <hr />
             <br/>
 
             <div className="white-container">
@@ -66,16 +67,27 @@ const Home = () => {
             </div>
 
             <br/>
-            <div className="calendar">
-                Teams
+            <div className="events">
+                <span><b>Teams</b></span>
             </div>
             <hr/>
 
-            <div className="blue-container">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div className="events">
+                <div id="redrectangle">
+                    
+                </div>
+
+                <div id="whiterectangle">
+                    
+                </div>
+
+                <div id="bluerectangle">
+                    
+                </div>
+
+                <div id="greenrectangle">
+                    
+                </div>
             </div>
             <br/>
             <br/>

@@ -9,11 +9,13 @@ const Schedule = () => {
     return (
         <div>
             <NavigationBar />
-            <hr />
+            <hr/>
             <br/>
 
-            <button>Sports</button>
-            <button>Cultural</button><br/>
+            <div className="selectionTabs">
+                    <button>Sports</button>
+                    <button>Cultural</button>
+            </div>
             <br/>
 
             <div class="event">
@@ -26,7 +28,7 @@ const Schedule = () => {
                 <span><h4>Red Fire vs White Winds</h4>Team A vs Team B</span>
                 <span><h4>Slot 1:7am-9pm</h4></span>
             </div>
-m
+
             <div class="events">
                 <span><h4>Table Tennis Junior</h4></span>
                 <span><h4>Red Fire vs White Winds</h4>Team A vs Team B</span>
